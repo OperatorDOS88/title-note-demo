@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { Textarea } from "./components/ui/textarea"
+import { Button } from "./components/ui/button"
+import { Card, CardContent } from "./components/ui/card"
 
 function transformToTitleNote(input) {
   const cleaned = input.trim().replace(/\s+/g, " ")
